@@ -1,0 +1,30 @@
+{
+    "sanpham": [
+        {"id": "12", "tensp": "Thịt Cuộn", "gia": 74000, "mota": "Món ngon không thể bỏ qua", "giamgia": 15, "hinh": "image/spngon4.jpg", "loai": "monchinh", "soLuongDaBan": 130, "diemDanhGia": 4.3},
+        {"id": "13", "tensp": "Lẩu 3 Gian", "gia": 147000, "mota": "Món ngon không thể bỏ qua", "giamgia": 20, "hinh": "image/spngon5.jpg", "loai": "monchinh", "soLuongDaBan": 50, "diemDanhGia": 3.9},
+       {"id": "3", "tensp": "Gia Nổ", "gia": 110000, "mota": "Món ngon không thể bỏ qua", "giamgia": 7, "hinh": "image/spkhaivi3.jpeg", "loai": "khaivi", "soLuongDaBan": 95, "diemDanhGia": 4.8},
+        {"id": "4", "tensp": "Nem Rán", "gia": 87000, "mota": "Món ngon không thể bỏ qua", "giamgia": 4, "hinh": "image/spkhaivi4.avif", "loai": "khaivi", "soLuongDaBan": 130, "diemDanhGia": 4.6},
+        {"id": "5", "tensp": "Khai Vị", "gia": 87000, "mota": "Món ngon không thể bỏ qua", "giamgia": 4, "hinh": "image/spkhaivi5.jpg", "loai": "khaivi", "soLuongDaBan": 100, "diemDanhGia": 4.3},
+        {"id": "6", "tensp": "Cánh Gà Rán", "gia": 105000, "mota": "Món ngon không thể bỏ qua", "giamgia": 20, "hinh": "image/spcombo1.jpg", "loai": "combo", "soLuongDaBan": 200, "diemDanhGia": 4.7},
+        {"id": "7", "tensp": "Cơm sườn", "gia": 97000, "mota": "Món ngon không thể bỏ qua", "giamgia": 15, "hinh": "image/spcombo2.jpg", "loai": "combo", "soLuongDaBan": 150, "diemDanhGia": 4.4},
+        {"id": "8", "tensp": "Bánh Cuốn", "gia": 78000, "mota": "Món ngon không thể bỏ qua", "giamgia": 20, "hinh": "image/spcombo3.jpg", "loai": "combo", "soLuongDaBan": 110, "diemDanhGia": 4.1}, 
+        {"id": "1", "tensp": "Nem Rán", "gia": 120000, "mota": "Món ngon không thể bỏ qua", "giamgia": 20, "hinh": "image/spkhaivi1.jpg", "loai": "khaivi", "soLuongDaBan": 120, "diemDanhGia": 4.5},
+        {"id": "2", "tensp": "Bánh Cua", "gia": 90000, "mota": "Món ngon không thể bỏ qua", "giamgia": 15, "hinh": "image/spkhaivi2.jpg", "loai": "khaivi", "soLuongDaBan": 80, "diemDanhGia": 4.2},
+        {"id": "9", "tensp": "Bún Bò", "gia": 67000, "mota": "Món ngon không thể bỏ qua", "giamgia": 20, "hinh": "image/spngon1.jpg", "loai": "monchinh", "soLuongDaBan": 220, "diemDanhGia": 4.8},
+        {"id": "10", "tensp": "Chả Ram", "gia": 81000, "mota": "Món ngon không thể bỏ qua", "giamgia": 15, "hinh": "image/spngon2.webp", "loai": "monchinh", "soLuongDaBan": 140, "diemDanhGia": 4.5},
+        {"id": "11", "tensp": "Tôm Hấp Dừa", "gia": 67000, "mota": "Món ngon không thể bỏ qua", "giamgia": 20, "hinh": "image/spngon3.jpg", "loai": "monchinh", "soLuongDaBan": 90, "diemDanhGia": 4.0},
+        {"id": "14", "tensp": "Bánh Mì", "gia": 47000, "mota": "Món ngon không thể bỏ qua", "giamgia": 15, "hinh": "image/spnhanh1.jpg", "loai": "annhanh", "soLuongDaBan": 300, "diemDanhGia": 4.6},
+        {"id": "15", "tensp": "Bánh Xèo", "gia": 50000, "mota": "Món ngon không thể bỏ qua", "giamgia": 10, "hinh": "image/spnhanh2.jpg", "loai": "annhanh", "soLuongDaBan": 210, "diemDanhGia": 4.7},
+        {"id": "16", "tensp": "Cơm Cuộn", "gia": 45000, "mota": "Món ngon không thể bỏ qua", "giamgia": 15, "hinh": "image/spnhanh3.jpg", "loai": "annhanh", "soLuongDaBan": 180, "diemDanhGia": 4.6},
+        {"id": "17", "tensp": "Bánh Matcha", "gia": 55000, "mota": "Món ngon không thể bỏ qua", "giamgia": 20, "hinh": "image/sptrangmieng1.jpg", "loai": "trangmieng", "soLuongDaBan": 100, "diemDanhGia": 4.4},
+        {"id": "18", "tensp": "Bánh Sữa", "gia": 65000, "mota": "Món ngon không thể bỏ qua", "giamgia": 10, "hinh": "image/sptangmieng2.jpg", "loai": "trangmieng", "soLuongDaBan": 90, "diemDanhGia": 4.3},
+        {"id": "19", "tensp": "Gỏi Cuốn", "gia": 65000, "mota": "Món ngon không thể bỏ qua", "giamgia": 15, "hinh": "image/sp1.jpg", "loai": "hot", "soLuongDaBan": 300, "diemDanhGia": 4.3},
+        {"id": "20", "tensp": "Nem Cuốn", "gia": 65000, "mota": "Món ngon không thể bỏ qua", "giamgia": 10, "hinh": "image/sp2.jpg", "loai": "hot", "soLuongDaBan": 280, "diemDanhGia": 4.8},
+        {"id": "21", "tensp": "Bún Chả", "gia": 65000, "mota": "Món ngon không thể bỏ qua", "giamgia": 20, "hinh": "image/sp3.jpg", "loai": "hot", "soLuongDaBan": 320, "diemDanhGia": 4.5}
+    ],
+    "daubep":[
+        {"id":"1","tendb":"James Oliver","chucvu":"Chuyên gia ẩm thực Anh","hinh":"image/db1.png","mota":"Đầu bếp người Anh, có 15 năm kinh nghiệm trong lĩnh vực ẩm thực Châu Âu."},
+        {"id":"2","tendb":"Michael Anderson","chucvu":"Chuyên gia ẩm thực Đông Á","hinh":"image/db3.png","mota":"Đầu bếp người Mỹ với 12 năm kinh nghiệm, chuyên về các món nướng và hải sản, luôn mang đến hương vị đậm đà."},
+        {"id":"3","tendb":"Sophie Williams","chucvu":"Chuyên gia ẩm thực Pháp","hinh":"image/db2.png","mota":"Đầu bếp người Pháp với 8 năm kinh nghiệm, nổi bật với kỹ năng chế biến các món ăn cao cấp, tinh tế và trang nhã."}
+    ]
+}

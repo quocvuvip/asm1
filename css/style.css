@@ -1,0 +1,823 @@
+@font-face {
+    font-family: tieude;
+    src: url(../font/Itim-Regular.ttf);
+}
+
+@font-face {
+    font-family: phu;
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 50px 0px;
+    /* Thêm khoảng cách trong (padding) cho mỗi section */
+    margin-bottom: 30px;
+    /* Thêm khoảng cách ngoài (margin) giữa các section */
+}
+
+a {
+    text-decoration: none;
+}
+
+.contener {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contenerfull {
+
+    width: 1512px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    /* background-color: #f15f2a; */
+}
+
+header {
+    position: relative;
+    background-image: url(../image/H2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    text-align: center;
+
+}
+
+.br2 {
+
+    background-image: url(../image/h6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+
+
+}
+
+.br3 {
+
+    background-image: url(../image/br53.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 500px;
+
+
+}
+
+.br4 {
+    width: 100%;
+    background-image: url(../image/br71.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+
+
+}
+
+.br5 {
+    background-color: #100f0fd8;
+    height: 450px;
+}
+
+.br1 {
+    background-color: rgba(0, 0, 0, 0.607);
+    position: absolute;
+    /* Đặt br1 ở vị trí tuyệt đối so với header */
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Chiều rộng phủ toàn bộ header */
+    height: 100%;
+    /* Chiều cao phủ toàn bộ header */
+    z-index: 1;
+    /* Đảm bảo lớp phủ nằm trên background */
+}
+
+/* Phần tử nav tổng quan */
+nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    /* Giúp logo và menu nằm cách xa nhau */
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px 20px;
+    /* Khoảng cách trong cho nav */
+    color: white;
+    /* Màu chữ trắng */
+
+}
+
+/* Phong cách cho logo */
+.logo,
+.logo2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo {
+    float: right;
+}
+
+.logo img {
+    width: 100px;
+}
+
+/* Định dạng menu chính */
+.menu ul {
+    list-style-type: none;
+    /* Loại bỏ dấu chấm đầu dòng */
+    display: flex;
+    /* Hiển thị các mục menu theo hàng ngang */
+}
+
+.menu ul li {
+    position: relative;
+}
+
+.menu ul li a {
+    color: white;
+    /* Màu chữ */
+    text-decoration: none;
+    /* Loại bỏ gạch chân */
+    padding: 10px 20px;
+    /* Khoảng cách trong cho các liên kết */
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background-color: #555;
+    /* Màu khi rê chuột */
+}
+
+/* Định dạng cho menu con */
+.menu ul li ul {
+    display: none;
+    /* Ẩn menu con */
+    position: absolute;
+    top: 100%;
+    /* Đặt menu con ngay dưới menu cha */
+    left: 0;
+    background-color: #333;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li:hover ul {
+    display: block;
+    /* Hiển thị menu con khi rê chuột vào menu cha */
+}
+
+.menu ul li ul li a {
+    padding: 10px 20px;
+    width: 180px;
+    /* Chiều rộng menu con */
+}
+
+.menu ul li ul li a:hover {
+    background-color: #555;
+    /* Màu khi rê chuột trên menu con */
+}
+
+/* Căn phải cho logo2 */
+.logo2 a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.logo2 a:hover {
+    background-color: #555;
+}
+
+header h1 {
+    margin-top: 70px;
+    color: rgb(250, 93, 40);
+    font-size: 3rem;
+}
+
+header h3 {
+    margin-top: 25px;
+    color: rgb(252, 252, 252);
+}
+
+header p {
+    margin-top: 10px;
+    color: rgb(252, 252, 252);
+}
+
+
+.box {
+
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+
+}
+
+.boxa {
+    width: 50%;
+    float: left;
+}
+
+.boxb {
+    width: 50%;
+    float: left;
+}
+
+.hinh1 img {
+    margin-top: 0px;
+    margin-bottom: 70px;
+    margin-left: 21%;
+    width: 70%;
+    height: 380px;
+
+}
+
+.hinh2 img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+
+}
+
+.hinh3 {
+    width: 10%;
+    float: left;
+}
+
+.hinh3 img {
+    width: 100%;
+    height: 75px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.text p {
+
+    font-size: 35px;
+    color: #f15f2a;
+    margin-top: 40px;
+}
+
+.text {
+
+    width: 80%;
+    text-align: center;
+}
+
+.text h1 {
+    margin: 0 auto;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.text h5 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(85, 84, 84);
+}
+
+
+.row3 {
+    color: #ffffff;
+}
+
+.row3 h3 {
+    font-family: tieude;
+    padding-top: 60px;
+    color: #f15f2a;
+    font-size: 16px;
+}
+
+.row3 h1 {
+    margin: 0 auto;
+    font-size: 36px;
+    font-family: tieude;
+}
+
+
+.con3 {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 80%;
+    float: left;
+}
+
+.con3 h2 {
+    font-family: tieude;
+    width: 60%;
+    float: left;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.con3 h4 {
+    font-family: tieude;
+    color: #f15f2a;
+
+
+    float: right;
+    font-size: 1.5rem;
+    margin-top: 10px;
+
+}
+
+.con3 h5 {
+    font-family: tieude;
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+    font-size: 0.7rem;
+}
+.tieude2 {
+    margin-top: 30px;
+
+    width: 100%;
+    text-align: center;
+
+}
+.tieude2 h2{
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: phu;
+}
+.tieude2 p{
+    color: #ffa584;
+    font-family: tieude;
+}
+
+.tieude {
+    width: 100%;
+}
+
+.tieude h3 {
+
+    color: #000000;
+    font-size: 45px;
+    font-family: tieude;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 3px 3px 8px rgb(254, 118, 27);
+}
+
+.tieude p {
+    font-family: tieude;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+.tieude h1 {
+    width: 100%;
+    text-align: center;
+}
+.clred{
+    color: #ff2f00;
+}
+
+
+.tieude hr {
+
+    width: 60%;
+    border: #000000;
+    border-style: inset;
+    border-radius: 50px;
+    margin: auto;
+}
+
+/* Định dạng cho thẻ sản phẩm */
+.product-card {
+    width: 20%;
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgb(86, 85, 85);
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 10px 2.5% 20px 2.5%;
+
+    float: left;
+}
+
+
+
+/* Hình ảnh sản phẩm */
+.product-image {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+
+/* Thẻ giảm giá */
+.discount-tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff6600;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Thông tin sản phẩm */
+.product-info h3 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+/* Nút "Mua Ngay" */
+.buy-now-btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now-btn:hover {
+    background-color: #d02802;
+}
+
+/* Thiết kế chung cho thẻ sản phẩm */
+.product-card2 {
+    display: flex; /* Hiển thị sản phẩm theo dạng ngang */
+    background-color: #ffffff; 
+    border-radius: 15px; /* Bo góc cho thẻ sản phẩm */
+    overflow: hidden; /* Ẩn nội dung tràn ra ngoài của thẻ */
+    box-shadow:  5px 3px 10px 3px rgb(25, 24, 24); /* Tạo bóng đổ nhẹ cho thẻ */
+    float: left;
+    width: 40%; /* Chiều rộng tối đa của thẻ */
+    margin: 0% 0% 3% 7%  ; /* Căn giữa thẻ và thêm khoảng cách trên/dưới */
+}
+
+
+
+/* Phần hiển thị hình ảnh sản phẩm */
+.product-image2 {
+    width: 40%;
+    width: 200px;
+    background-color: #ffe6cc; /* Màu nền cho khung chứa hình ảnh */
+}
+
+.product-image2 img {
+    width: 100%; /* Chiều rộng của hình ảnh */
+    height: 170px; /* Chiều cao của hình ảnh */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị méo */
+}
+
+/* Phần hiển thị thông tin sản phẩm */
+.product-details2 {
+    padding: 20px; /* Khoảng cách giữa nội dung và viền của thẻ */
+    flex: 1; /* Chiếm toàn bộ không gian còn lại sau phần hình ảnh */
+}
+
+.product-details2 h3 {
+    width: 70%;
+    float: left;
+    font-size: 18px; /* Cỡ chữ cho tên sản phẩm */
+    margin-bottom: 10px; /* Khoảng cách dưới tên sản phẩm */
+}
+
+.product-details2 p {
+    float: left;
+    width: 100%;
+    font-size: 14px; /* Cỡ chữ cho mô tả sản phẩm */
+    color: #666; /* Màu chữ xám nhạt */
+    margin-bottom: 15px; /* Khoảng cách dưới đoạn mô tả */
+}
+
+/* Phần hiển thị đánh giá sản phẩm (sao vàng) */
+.product-rating2 span {
+    width: 30%;
+    color: rgb(255, 200, 0);
+    font-size: 16px; 
+    margin-bottom: 10px; 
+}
+
+/* Phần hiển thị giá sản phẩm */
+.product-price2 {
+    width: 60%;
+    float: left;
+    font-size: 20px; /* Cỡ chữ cho giá sản phẩm */
+    color: #e74c3c; /* Màu đỏ cho giá sản phẩm */
+    font-weight: bold; /* Tăng độ đậm cho giá sản phẩm */
+    margin-bottom: 15px; /* Khoảng cách dưới phần giá */
+}
+
+/* Nút đặt ngay */
+.order-button {
+    width: 40%;
+    background-color: #595757; /* Màu nền đỏ cho nút */
+    color: #ffffff; /* Màu chữ trắng cho nút */
+    border: none; /* Bỏ viền cho nút */
+    padding: 7px 15px; /* Khoảng cách nội dung bên trong nút */
+    border-radius: 5px; /* Bo góc nhẹ cho nút */
+    cursor: pointer; 
+    font-size: 18px; 
+    transition: all 0.3s ease; /* Hiệu ứng chuyển đổi khi hover */
+}
+
+/* Hiệu ứng khi hover vào nút */
+.order-button:hover {
+    background-color: #ff1900; /* Màu nền đỏ sậm khi hover */
+}
+
+/* Container chính */
+#daubep-container {
+    width: 100%;
+    height: 500px;
+
+    justify-content: center;
+    /* Căn giữa các thẻ */
+    display: flex;
+}
+
+/* Thẻ đầu bếp */
+.chef-card {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Vòng tròn nền phía sau */
+.circle-bg {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.199);
+    /* Màu trắng mờ */
+
+    box-shadow: 3px 3px 50px rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: -25px;
+    z-index: 0;
+}
+
+/* Ảnh đầu bếp */
+.chef-image-wrapper {
+    position: relative;
+    width: 150px;
+    height: 180px;
+    margin: 0 auto 15px;
+    /* Đảm bảo ảnh căn giữa */
+    z-index: 0;
+}
+
+.chef-photo {
+    width: 100%;
+    object-fit: cover;
+    /* Đảm bảo ảnh không bị méo */
+    object-position: center;
+    transition: transform 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.chef-card:hover .chef-photo {
+    transform: scale(1.2);
+    /* Phóng to ảnh khi rê chuột */
+}
+
+/* Thông tin đầu bếp */
+.chef-info {
+    margin-top: 80px;
+    width: 100%;
+    justify-content: center;
+    /* Căn giữa các thẻ */
+}
+
+.chef-info h3 {
+
+    margin: 10px 0 5px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.chef-info h6 {
+    font-size: 18px;
+    color: #fb5a04;
+
+}
+
+.chef-info p {
+    margin-top: 10px;
+    margin-left: 10%;
+    width: 80%;
+    font-size: 14px;
+    color: #bbb;
+    font-family: tieude;
+}
+
+
+/* Footer container */
+footer {
+    background-color: #100f0f;
+    color: white;
+
+    height: 500px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Left section */
+.footer-left {
+    width: 60%;
+    padding: 40px 0;
+}
+
+.footer-logo {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 130px;
+    /* Kích thước logo */
+    float: left;
+}
+
+.footer-left p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 14px;
+    width: 100%;
+    float: left;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+.address,
+.phone,
+.email {
+    width: 30%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0.5px solid #555;
+}
+
+/* General Styles */
+.menu-container {
+    max-width: 70%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.menu-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px rgb(255, 0, 0);
+
+
+    /* Thêm khoảng cách giữa nội dung và viền */
+}
+
+.goctrai {
+
+    border: #ffffff00;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.gocphai {
+
+    border: #ffffff00;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.menu-tab {
+    background-color: #fff;
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    border: #ffffff00;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.all {
+    background-color: #807d7c;
+    color: white;
+}
+
+/* Thay đổi màu khi tab được nhấn */
+.menu-tab:active,
+.menu-tab:focus {
+    background-color: #e74c3c;
+    color: white;
+    outline: none;
+    /* Loại bỏ viền mặc định của browser khi nhấn */
+}
+
+/* Tab đang được chọn sẽ có màu khác */
+.menu-tab.active {
+    background-color: #e74c3c;
+    color: white;
+}
+
+
+/* Right section */
+.footer-right {
+    width: 35%;
+    background-color: #e34f00;
+    padding: 20px;
+    height: 450px;
+}
+
+.khung2 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border: 5px;
+    border-style: solid;
+    border-color: #e5dfdf;
+    height: 400px;
+}
+
+.opening-hours h3 {
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.opening-hours ul {
+    list-style: none;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+
+.opening-hours ul li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.opening-hours ul li span {
+    font-weight: bold;
+}
+
+.reservation-phone {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+/* Icons */
+.fa {
+    font-size: 14px;
+    color: white;
+}
