@@ -102,15 +102,18 @@ header {
 
 /* Phần tử nav tổng quan */
 nav {
-    width: 80%;
+    width: 100%;
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     /* Giúp logo và menu nằm cách xa nhau */
     align-items: center;
     margin: 0 auto;
-    padding: 15px 20px;
+    padding: 0px 20px;
+    background-color: #00000067;
     /* Khoảng cách trong cho nav */
-    color: white;
+    color: rgba(104, 95, 95, 0);
     /* Màu chữ trắng */
 
 }
